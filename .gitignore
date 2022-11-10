@@ -1,18 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-############## For Backend folder
-backend/.git
 
 # package directories
 */jspm_packages
 
 # Serverless directories
-.serverless
+*.serverless
 
 # Webpack directories
-.webpack
+*/.webpack
 
 # Local DynamoDb
-.dynamodb
+*/.dynamodb
 
 # dependencies
 */node_modules
@@ -32,8 +30,8 @@ backend/.git
 */.env.test.local
 */.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
 
 
